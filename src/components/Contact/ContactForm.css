@@ -60,4 +60,15 @@
 .btn-submit {
   display: block;
   margin: 0 auto;
+  font-family: inherit;
+}
+
+@media (max-width: 31em) {
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .text-area-container {
+    grid-column: span 1;
+  }
 }

@@ -36,8 +36,4 @@
   .about {
     grid-template-columns: 1fr;
   }
-  .resume-btn {
-    display: block;
-    margin: 0 auto;
-  }
 }
