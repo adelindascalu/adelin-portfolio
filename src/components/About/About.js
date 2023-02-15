@@ -2,6 +2,7 @@ import "./About.css";
 import portfolioPhoto from "../../assets/images/WhatsApp Image 2023-01-28 at 14.14.03 cut.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import CV from "../../assets/docs/Adelin_Dascalu_CV_EN.pdf";
 
 export default function About() {
   return (
@@ -16,10 +17,10 @@ export default function About() {
             when I enrolled at IT School where I learned about technologies like
             HTML, CSS, JavaScript and React.
           </p>
-          <button className='btn-dark resume-btn'>
+          <a className='btn-dark resume-btn' href={CV} download>
             <FontAwesomeIcon icon={faDownload} />
             &nbsp;Resume
-          </button>
+          </a>
         </div>
         <div className='about-img-box'>
           <img

@@ -28,6 +28,7 @@ export default function ContactForm() {
       type: "text",
       placeholder: "First Name",
       label: "First Name",
+      required: true,
     },
     {
       id: 2,
@@ -35,6 +36,7 @@ export default function ContactForm() {
       type: "text",
       placeholder: "Last Name",
       label: "Last Name",
+      required: true,
     },
     {
       id: 3,
@@ -113,7 +115,7 @@ export default function ContactForm() {
           onSubmit={handleSubmit}
           form='cta-form'
         >
-          Hit me up!&nbsp;
+          Send message&nbsp;
           <FontAwesomeIcon icon={faPaperPlane} />
         </button>
       </div>
