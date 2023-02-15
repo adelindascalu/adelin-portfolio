@@ -1,0 +1,37 @@
+.footer {
+  padding: 9.6rem 0 4.8rem 0;
+}
+
+.footer-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.footer-link,
+.footer-link:link,
+.footer-link:visited {
+  color: var(--tertiary-color);
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--tertiary-color-light);
+}
+
+@media (max-width: 31em) {
+  .footer-elements {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}

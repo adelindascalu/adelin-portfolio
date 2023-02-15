@@ -1,0 +1,12 @@
+.heading-tertiary {
+  font-size: 1.4rem;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  margin-bottom: 3.6rem;
+}

@@ -1,0 +1,43 @@
+.about-section {
+  padding: 9.6rem 0;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+/* .about-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.about-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-picture {
+  max-width: 30rem;
+  width: 100%;
+}
+
+.about-description {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+@media (max-width: 48em) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .resume-btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
