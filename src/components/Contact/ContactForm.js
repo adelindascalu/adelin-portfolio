@@ -78,6 +78,7 @@ export default function ContactForm() {
       });
 
       setTextArea("");
+      alert("Thank you for your message.");
     } catch (err) {
       alert("Problem loading request. Please refresh.");
     }
@@ -90,7 +91,11 @@ export default function ContactForm() {
         <form id='cta-form' className='cta-form' onSubmit={handleSubmit}>
           {inputs.map((input) => (
             <div key={input.id}>
-              <label htmlFor={input.id}>{input.label}</label>
+              <label htmlFor={input.id}>
+                {input.label}
+                &nbsp;<span>*</span>
+              </label>
+
               <input
                 {...input}
                 value={values[input.name]}
@@ -104,7 +109,7 @@ export default function ContactForm() {
               rows='10'
               id='textarea'
               className='textarea'
-              placeholder='Your comment here'
+              placeholder='Message'
               onChange={handleTextArea}
               value={textArea}
             ></textarea>

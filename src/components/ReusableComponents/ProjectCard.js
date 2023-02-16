@@ -40,7 +40,7 @@ const projects = [
   {
     title: "AXD Service",
     description:
-      "This is a front-end static website that allows people to check and book services within an auto-service. It was built using React with pure CSS and HTML. The booking data is sent to a database from Firebase. ",
+      "This is a front-end static website that allows people to check and book services within an auto-service company. It was built using React with pure CSS and HTML. The booking data is sent to a database from Firebase. ",
     skills: "React / CSS / HTML",
     image: axdService,
     link: "https://axd-service.netlify.app/",

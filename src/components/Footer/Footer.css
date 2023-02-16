@@ -20,7 +20,7 @@
 .footer-link:visited {
   color: var(--tertiary-color);
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   transition: all 0.3s ease;
 }
 

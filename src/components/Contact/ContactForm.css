@@ -32,8 +32,15 @@
   color: var(--tertiary-color-light);
 }
 
-.cta-form input::placeholder,
+.cta-form span {
+  color: red;
+}
+
 .cta-form input::content {
+  color: var(--main-color-light);
+}
+
+.cta-form input::placeholder {
   color: var(--main-color-light);
 }
 
@@ -44,11 +51,11 @@
   border: 1px solid var(--main-color-light);
   padding: 0.9rem 1.6rem;
   color: var(--tertiary-color-light);
+  font: inherit;
 }
 
 .textarea::placeholder {
   color: var(--main-color-light);
-  font-family: "Lato", sans-serif;
   font-size: 1.6rem;
 }
 
