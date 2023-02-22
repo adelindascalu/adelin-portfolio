@@ -1,5 +1,6 @@
 import "./ProjectCard.css";
 import axdService from "../../assets/images/axd-service-capture.JPG";
+import axdFitness from "../../assets/images/axd-fitness-website.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faEye } from "@fortawesome/free-solid-svg-icons";
 
@@ -40,10 +41,19 @@ const projects = [
   {
     title: "AXD Service",
     description:
-      "This is a front-end static website that allows people to check and book services within an auto-service company. It was built using React with pure CSS and HTML. The booking data is sent to a database from Firebase. ",
+      "Front-end static website that allows people to check and book services within an auto-service company. It was built using React with pure CSS and HTML. The booking data is sent to a database from Firebase. ",
     skills: "React / CSS / HTML",
     image: axdService,
     link: "https://axd-service.netlify.app/",
     code: "https://github.com/adelindascalu/auto-service-website",
+  },
+  {
+    title: "AXD Fitness",
+    description:
+      "Responsive landing page for a fictive fitness gym that provides custom workout plans. It was built using Javscript, CSS and HTML.",
+    skills: "Javascript / CSS / HTML",
+    image: axdFitness,
+    link: "https://axd-fitness.netlify.app/",
+    code: "https://github.com/adelindascalu/axd-fitness",
   },
 ];
