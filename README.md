@@ -1,4 +1,4 @@
-# Personal portfolio
+# 😎 Personal portfolio
 
 This is my personal portfolio. Feel free to have a look. 👀
 
