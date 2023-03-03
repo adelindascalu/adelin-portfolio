@@ -2,6 +2,7 @@ import { Link } from "react-scroll";
 import "./Hero.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Hero() {
   return (
@@ -21,6 +22,21 @@ export default function Hero() {
           Discover More &nbsp;
           <FontAwesomeIcon icon={faArrowDown} />
         </Link>
+        <ul className='hero-links'>
+          <li>
+            <a
+              href='https://www.linkedin.com/in/adelin-dascalu/'
+              className='hero-link'
+            >
+              <FontAwesomeIcon icon={faLinkedin} className='icon' />
+            </a>
+          </li>
+          <li>
+            <a href='https://github.com/adelindascalu' className='hero-link'>
+              <FontAwesomeIcon icon={faGithub} className='icon' />
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   );

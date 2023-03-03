@@ -2,6 +2,10 @@
 
 This is my personal portfolio. Feel free to have a look. 👀
 
+# 🌐 Links
+
+Live: https://adelindevelops.netlify.app/
+
 # 🛠 Built with:
 
 • ReactJs
@@ -12,6 +16,6 @@ This is my personal portfolio. Feel free to have a look. 👀
 
 • HTML
 
-# 🌐 Links
+• Firebase
 
-Live: https://adelindevelops.netlify.app/
+#

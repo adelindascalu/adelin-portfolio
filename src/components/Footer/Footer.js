@@ -36,11 +36,6 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
-            {/* <li>
-              <a href='#' className='footer-link'>
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>
