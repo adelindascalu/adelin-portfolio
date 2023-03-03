@@ -60,6 +60,10 @@
 }
 
 @media (max-width: 48em) {
+  .hero {
+    padding: 7.2rem 0 7.2rem 0;
+  }
+
   .hero-links {
     flex-direction: row;
     bottom: 0;
