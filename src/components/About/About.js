@@ -10,12 +10,13 @@ export default function About() {
       <div className='container about'>
         <div className='about-text-box'>
           <h2 className='heading-tertiary'>About me</h2>
-          <h3 className='heading-secondary'>Who am I?</h3>
+          <h3 className='heading-secondary'>Who I am</h3>
           <p className='about-description'>
             Hello! My name is Adelin Dascălu and I enjoy building things from
-            scratch. My journey as a Front-End Developer started back in 2022,
-            when I enrolled at IT School where I learned about technologies like
-            HTML, CSS, JavaScript and React.
+            scratch. <br /> It all started back in 2022 when I joined a Web
+            Development training program and realized it was a perfect fit. My
+            goal is to improve my skills, with the main focus on designing and
+            building websites that offer a smooth user experience.
           </p>
           <a className='btn-dark resume-btn' href={CV} download>
             <FontAwesomeIcon icon={faDownload} />
